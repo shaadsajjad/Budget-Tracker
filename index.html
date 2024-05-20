@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget tracker</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="w-[1000px] h-[200px] bg-gray-100 mx-auto mt-16">
+            <div class="flex items-center pt-20">
+                <div class="pl-10">
+                    <input type="number" placeholder="Enter amount"
+                        class="h-[40px] w-[400px] border-2 font-semibold rounded-lg pl-3" id="input">
+                </div>
+                <div class="ml-3">
+                    <button class="bg-gradient-to-t from-blue-600 to-blue-500 h-[30px] w-[60px] text-white rounded-lg" id="add">Add</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-[1000px] h-[150px] bg-gray-100 mx-auto mt-8 flex items-center pl-7 font-semibold">
+            <h1 class="text-4xl">Income: <span id="income" class="text-4xl"></span></h1>
+            <p class="pl-[400px] text-4xl">Expense: <span id="expense" class="text-4xl"></span></p>
+
+
+
+        </div>
+        <div id="div"  class="w-[1000px]  bg-gray-100 mx-auto mt-8 flex flex-col  p-7 font-semibold">
+
+        </div>
+        <!-- <div class="w-[1000px]  bg-gray-100 mx-auto mt-8 flex items-center justify-between p-7 font-semibold">
+            <div>
+                <span id="budgetAmount" class="text-4xl"></span>
+                <span id="budgetType" class="text-xs"></span>
+            </div>
+            <div>
+                <button id="delete"></button>
+                <button id="edit"></button>
+            </div> 
+
+
+
+
+
+    </div> -->
+        <script src="./script.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>
